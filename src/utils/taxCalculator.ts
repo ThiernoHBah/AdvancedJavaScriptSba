@@ -1,8 +1,17 @@
+// This function calculates how much TAX is added to the product.
+// The rules given:
+// - Normal products: 4.75% tax
+// - Groceries only: 3% tax
+
 export function calculateTax(price: number, category: string): number {
-  const defaultTax = 4.75;
-  const groceryTax = 3;
+  let taxRate = 4.75; // default tax
 
-  const taxRate = category.toLowerCase() === "groceries" ? groceryTax : defaultTax;
+  // groceries get lower tax
+  if (category.toLowerCase() === "groceries") {
+    taxRate = 3;
+  }
 
-  return price * (taxRate / 100);
+  // percentage formula
+  const taxAmount = price * (taxRate / 100);
+  return taxAmount;
 }
