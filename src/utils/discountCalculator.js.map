@@ -1,0 +1,1 @@
+{"version":3,"file":"discountCalculator.js","sourceRoot":"","sources":["discountCalculator.ts"],"names":[],"mappings":";AAAA,2DAA2D;AAC3D,qDAAqD;;AAErD,8CAIC;AAJD,SAAgB,iBAAiB,CAAC,KAAa,EAAE,eAAuB;IACtE,qBAAqB;IACrB,MAAM,QAAQ,GAAG,KAAK,GAAG,CAAC,eAAe,GAAG,GAAG,CAAC,CAAC;IACjD,OAAO,QAAQ,CAAC;AAClB,CAAC"}
